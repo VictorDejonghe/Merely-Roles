@@ -1,0 +1,479 @@
+{
+  "id": "0c1f3258-3365-4318-aad8-f9558f878d01",
+  "version": "2.0",
+  "name": "Partenaire Staging",
+  "url": "https://staging.merely.fr/",
+  "tests": [{
+    "id": "d6411990-3875-4e61-9c1c-8c2a47445dd6",
+    "name": "[Plan d'animation] planning -create plan",
+    "commands": [{
+      "id": "a2bfab9e-7158-4d26-90be-cbe90d6c5a41",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.merely.fr/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35360117-ae05-41c8-8464-f10a1990d477",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1059x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4e2ea26-f0e3-4916-bf34-eee08621c04f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#headerItem svg",
+      "targets": [
+        ["css=#headerItem svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f48e496-09de-47bf-98da-d832288a2f8e",
+      "comment": "",
+      "command": "type",
+      "target": "id=createEntity_title",
+      "targets": [
+        ["id=createEntity_title", "id"],
+        ["css=#createEntity_title", "css:finder"],
+        ["xpath=//input[@id='createEntity_title']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/form/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Plan partenaire test"
+    }, {
+      "id": "5ffb4be9-6da8-48b8-8803-aa71771684f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=createEntity_date",
+      "targets": [
+        ["id=createEntity_date", "id"],
+        ["css=#createEntity_date", "css:finder"],
+        ["xpath=//input[@id='createEntity_date']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/form/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69bbd510-bc13-4962-9171-68d6726ed1f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-picker-cell-today > .ant-picker-cell-inner",
+      "targets": [
+        ["css=.ant-picker-cell-today > .ant-picker-cell-inner", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/form/div/div[3]/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/table/tbody/tr[3]/td[5]/div", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56f1b654-4e1c-45d3-90b1-e16f4449aed7",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) > .ant-picker-cell-range-hover-end > .ant-picker-cell-inner",
+      "targets": [
+        ["css=tr:nth-child(5) > .ant-picker-cell-range-hover-end > .ant-picker-cell-inner", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/form/div/div[3]/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/table/tbody/tr[5]/td[5]/div", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4756b09-d7e4-450e-882c-f512381527c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=rc_select_0",
+      "targets": [
+        ["id=rc_select_0", "id"],
+        ["css=#rc_select_0", "css:finder"],
+        ["xpath=//input[@id='rc_select_0']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/form/div/div[5]/div/div/div/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63747a04-2b10-4f47-b572-9c0524d1a00d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-select-item-option-active > .ant-select-item-option-content",
+      "targets": [
+        ["css=.ant-select-item-option-active > .ant-select-item-option-content", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/form/div/div[8]/div/div/div/div[2]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a38e13e4-e055-48b2-acb6-99953d4a79ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anticon-check > svg",
+      "targets": [
+        ["css=.anticon-check > svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b540422f-b311-40bb-98ca-e4dec38f3635",
+    "name": "[Plan d'animation] planning -delete plan",
+    "commands": [{
+      "id": "146743a3-9f4c-4f7e-863f-89c4f51ba35f",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.merely.fr/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae597fd3-72d5-48c8-8a94-e1c491c1fed5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x928",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1efdc6f9-8f44-4816-b634-5102d722494a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nested_menu--item-hover .body_regular",
+      "targets": [
+        ["css=.nested_menu--item-hover .body_regular", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/div[2]/div/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5823fd2b-983b-4734-96c6-32806c29f2df",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-tooltip-open",
+      "targets": [
+        ["css=.ant-tooltip-open", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/div[2]/div/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5c2bc7e-f5db-4a93-94f8-f93f9b8e1b27",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cadrage_delete--item-hover svg",
+      "targets": [
+        ["css=.cadrage_delete--item-hover svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cbbcbe4-8f99-4291-b684-54330620ddab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-purple > span",
+      "targets": [
+        ["css=.ant-btn-purple > span", "css:finder"],
+        ["xpath=//div[3]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Supprimer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3bb00099-0fba-4bd9-8f91-9cfdd453a535",
+    "name": "[Plan d'animation] planning -create operation",
+    "commands": [{
+      "id": "9bcc1e48-4c33-41ba-8af2-152b67ada2cb",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.merely.fr/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6775b0c3-64c5-4e42-b5f8-f3bd283ca30d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x928",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "866303f1-3c79-43fc-93c4-304298c2a603",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nested_menu--item:nth-child(2) check-permissions path:nth-child(2)",
+      "targets": [
+        ["css=.nested_menu--item:nth-child(2) check-permissions path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d832fb1a-6967-409f-b1e2-1fd99d4208b3",
+      "comment": "",
+      "command": "type",
+      "target": "id=createEntity_title",
+      "targets": [
+        ["id=createEntity_title", "id"],
+        ["css=#createEntity_title", "css:finder"],
+        ["xpath=//input[@id='createEntity_title']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/form/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "operation partenaire test"
+    }, {
+      "id": "334c8d8b-f864-4af7-aede-0be1e6306d59",
+      "comment": "",
+      "command": "click",
+      "target": "id=rc_select_0",
+      "targets": [
+        ["id=rc_select_0", "id"],
+        ["css=#rc_select_0", "css:finder"],
+        ["xpath=//input[@id='rc_select_0']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/form/div/div[5]/div/div/div/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc05414d-982b-45a6-b976-a051711b689d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-select-item-option-active > .ant-select-item-option-content",
+      "targets": [
+        ["css=.ant-select-item-option-active > .ant-select-item-option-content", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/form/div/div[8]/div/div/div/div[2]/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc6c8fc6-2069-4050-a02f-ce3dc9a30595",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anticon-check > svg",
+      "targets": [
+        ["css=.anticon-check > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a61fd88-d261-4ee5-888a-9e19a82e7836",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(4) .calendar_chart--item",
+      "targets": [
+        ["css=div:nth-child(4) .calendar_chart--item", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div/div[4]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/plans/449/operations/763')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "136a922d-7559-4459-b6bf-d9e79b627bf5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-tooltip-open",
+      "targets": [
+        ["css=.ant-tooltip-open", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div/div[4]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/plans/449/operations/763')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "db50c9bf-4f0c-4a4c-8b63-5a9333b3a68f",
+    "name": "[Plan d'animation] planning -delete operation",
+    "commands": [{
+      "id": "6e8007dd-a614-42d9-9ca4-7df1a156b1cb",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.merely.fr/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b49b647e-52f6-4d33-a6f9-9f0d46ee6fe9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x928",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1be01959-1137-443e-90fc-7e6d7a83344a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nested_menu--item-hover .body_regular",
+      "targets": [
+        ["css=.nested_menu--item-hover .body_regular", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/div[2]/div/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e274ea04-48f9-45d6-8bb1-9f0020850146",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-tooltip-open",
+      "targets": [
+        ["css=.ant-tooltip-open", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/div[2]/div/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90e306b2-04fe-4aa0-8762-3e8af23fb38f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nested_menu--item-hover > .anticon path",
+      "targets": [
+        ["css=.nested_menu--item-hover > .anticon path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcbaddc0-f9c9-475d-b88c-b3b4cef962a5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nested_menu--item-hover .body_regular",
+      "targets": [
+        ["css=.nested_menu--item-hover .body_regular", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/div[2]/div/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Operation test')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1bd4b3a-bfc6-4f26-9b61-1064eae62ace",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-tooltip-open",
+      "targets": [
+        ["css=.ant-tooltip-open", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/div[2]/div/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Operation test')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d900e11-5bf1-470e-bf8a-e0bfc361eace",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.calendar_chart--row-hover > .calendar_chart--item",
+      "targets": [
+        ["css=.calendar_chart--row-hover > .calendar_chart--item", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/plans/443/operations/768')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65c76c92-5573-4d47-965c-cc06c60f9a63",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-tooltip-open",
+      "targets": [
+        ["css=.ant-tooltip-open", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/plans/443/operations/768')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b77ac22-0c14-410a-acdd-953f6f994f5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cadrage_delete--item-hover svg",
+      "targets": [
+        ["css=.cadrage_delete--item-hover svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bd4aa81-c388-430d-a279-f2256b13f478",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-purple > span",
+      "targets": [
+        ["css=.ant-btn-purple > span", "css:finder"],
+        ["xpath=//div[3]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Supprimer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "67c80705-67bd-450e-bd3f-72a811ea78f1",
+    "name": "[Plan d'animation] plan detail",
+    "commands": [{
+      "id": "950ba40d-e804-455b-b5b4-5b845daf6f23",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.merely.fr/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b526f8d2-9811-4139-bd95-d26439619352",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1059x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f5a9143-6812-4601-868e-7c5fdb290473",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-tooltip-open",
+      "targets": [
+        ["css=.ant-tooltip-open", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/div[2]/div/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c2ad5c18-42d5-4865-a9ab-74ef60788351",
+    "name": "[Plan d'animation] operation detail",
+    "commands": [{
+      "id": "9c876327-9952-4918-a04e-489e0ec1331a",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.merely.fr/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74e5ee31-f5b6-43d6-b57e-edfb6d556508",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x928",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a46db166-3321-46d0-acf7-8446ab4fb117",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nested_menu--item-hover > .anticon > svg",
+      "targets": [
+        ["css=.nested_menu--item-hover > .anticon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "486356b0-80d8-4fce-bb95-43c117f75ed7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nested_menu--item-hover .body_regular",
+      "targets": [
+        ["css=.nested_menu--item-hover .body_regular", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/div[2]/div/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Test operation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7551f71-3c07-4621-9aa2-81bba13dd7d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-tooltip-open",
+      "targets": [
+        ["css=.ant-tooltip-open", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div[2]/main/div/div[2]/div/div/div/div[2]/div/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Test operation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a44b1949-8f92-48d1-b260-277c74a0c20b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d6411990-3875-4e61-9c1c-8c2a47445dd6"]
+  }],
+  "urls": ["https://staging.merely.fr/"],
+  "plugins": []
+}
